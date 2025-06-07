@@ -18,5 +18,8 @@ Até o momento, foram realizados os seguintes passos:
 - Inclusão de tabelas para exibir informações de forma estruturada.
 - Uso de formulários HTML para coletar dados do usuário, incluindo campos de texto, seleção, radio buttons e checkboxes.
 - Organização dos arquivos do projeto em pastas separadas para HTML, CSS e imagens.
+- Adição de elementos de mídia:** inclusão de vídeos e áudios utilizando as tags `<video>` e `<audio>`, com diferentes formatos e controles personalizados.
+- Testes de compatibilidade:** verificação do suporte a diferentes formatos de mídia nos navegadores e uso de múltiplas fontes para garantir a reprodução.
+- Personalização de mídia:** aplicação de atributos como `controls`, `autoplay`, `loop` e `poster` para melhorar a experiência do usuário ao consumir vídeos e áudios.
 
 O objetivo principal é aprender os conceitos fundamentais de desenvolvimento web utilizando HTML e CSS.
