@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <style>
+        h1 {
+            font-size: 50px;
+        }
+        form {
+
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Formulário</h1>
+    <form>
+        <label for="campo_nome"> Nome: </label>
+        <input id="campo_nome" type="text" placeholder="Digite seu nome aqui" required>
+        <br><br>
+        <label for="campo_e-mail"> E-mail: </label>
+        <input id="campo_e-mail" type="email" placeholder="Digite seu e-mail aqui" required>
+        <br><br>
+        <label for="campo_senha"> Senha: </label>
+        <input id="campo_senha" type="password" placeholder="Digite sua senha aqui" required>
+        <br><br><br>
+        
+        <h2>Animal de estimação</h2>
+         <input type="radio" name="animal" value="cachorro" id="dog">
+         <label for="dog">Cachorro</label>
+         <br>
+        <input type="radio" name="animal" value="gato" id="gato">
+        <label for="gato">Gato</label>
+         <br>
+        <input type="radio" name="animal" value="passaro" id="passaro">
+        <label for="passaro">passarinho</label>
+        <br><br>
+        <h2>O que você têm em casa ?</h2>
+        <input type="checkbox" name="iten1" value="tv" id="item1">
+        <label for="item1">TV</label>
+        <br>
+        <input type="checkbox" name="iten2" value="radio" id="item2">
+        <label for="item2">Rádio</label>
+        <br>
+        <input type="checkbox" name="iten3" value="computador" id="item">
+        <label for="item3">computador</label>
+        <br><br>
+        <h2>Escolha uma Cor</h2>
+        <select>
+            <option disabled selected> Selecione uma cor</option>
+            <option value="vermelho">Vermelho</option>
+            <option value="verde">Verde</option>
+            <option value="azul">Azul</option>
+            <option value="amarelo">Amarelo</option>
+        </select>
+        <br><br>
+        <h2>Digite sua mensagem</h2>
+        <textarea placeholder="Digite aqui sua mensagem" rows="15" cols="35"name="mensagem" >
+        </textarea>
+        <br><br>
+        <br><br>
+
+        <input type="submit" value="Enviar formulário">
+        <button type="reset">Limpar formulário</button>
+    </form>
+    <br>
+   
+   
+
+    <a href="index.html">
+        <h3>Voltar para página Index.html</h3>
+    </a>
+</body>
+</html>
