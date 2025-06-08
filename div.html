@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aprendendo sobre Divs e HTML semântico</title>
+    <style>
+        * {
+            box-sizing: border-box;
+
+        }
+        body {
+            margin: 0;
+        }
+        .topo {
+            background-color: rgba(87, 87, 87, 0.856);
+            padding: 20px;
+            text-align: center;
+        }
+        .menu {
+            background-color: #333;
+            overflow: hidden;
+        }
+        .menu a {
+            color: white;
+            padding: 14px 16px;
+            float: left;
+            display: block;
+            text-decoration: none;
+        }
+        .menu a:hover {
+            color: red;
+        }
+        .coluna-50, .coluna2-50 {
+            float: left;
+            width: 50%;
+            padding: 15px;
+        }
+
+        
+    </style>
+</head>
+<body>
+    <header class="topo">
+        <h1>Topo</h1>
+        <p>Aqui o conteudo do topo!</p>
+    </header>
+    <nav class="menu">
+        <a href="index.html">Voltar para o Página Inicial</a>
+        <a href="equipe/filipe.html">Página da equipe</a>
+        <a href="sobre.html">Sobre</a>
+        <a href="formulario.html">Formulário</a>
+    </nav>
+    <section class="coluna-50">
+        <article>
+            <h2>Coluna 1</h2>
+            <p>A tag <code>&lt;div&gt;</code> é um elemento genérico de bloco em HTML, utilizada para agrupar outros elementos e estruturar o conteúdo da página. Ela não possui significado semântico próprio, servindo principalmente para organização e aplicação de estilos com CSS ou manipulação com JavaScript.</p>
+            <p>Ao utilizar <code>&lt;div&gt;</code>, é possível criar seções, colunas e áreas distintas no layout, facilitando o desenvolvimento e a manutenção do site. Para dar mais significado ao conteúdo, recomenda-se também o uso de tags semânticas como <code>&lt;header&gt;</code>, <code>&lt;main&gt;</code>, <code>&lt;section&gt;</code> e <code>&lt;footer&gt;</code> quando apropriado.</p>
+        </article>
+    </section>
+    <section class="coluna2-50">
+        <article>
+            <h2>Coluna 2</h2>
+            <p>Tags semânticas são elementos HTML que possuem significado próprio, indicando o papel que o conteúdo exerce na página. Exemplos de tags semânticas incluem <code>&lt;header&gt;</code>, <code>&lt;nav&gt;</code>, <code>&lt;main&gt;</code>, <code>&lt;section&gt;</code>, <code>&lt;article&gt;</code> e <code>&lt;footer&gt;</code>.</p>
+            <p>O uso de tags semânticas melhora a acessibilidade, facilita o entendimento do código por outros desenvolvedores e ajuda mecanismos de busca a interpretar melhor o conteúdo do site.</p>
+        </article>
+    </section>
+    <p><a href="index.html">Voltar para o Página Inicial</a></p>
+</body>
+</html>
